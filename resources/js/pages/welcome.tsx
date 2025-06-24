@@ -2,7 +2,7 @@
 import AppLayout from '@/layouts/app-layout';
 import { type BreadcrumbItem } from '@/types';
 import { Head } from '@inertiajs/react';
-import RiveExample from '@/components/rive-example';
+import LiquidGlassWindow from '@/components/liquid-glass-window';
 
 const breadcrumbs: BreadcrumbItem[] = [
     {
@@ -49,8 +49,8 @@ export default function Welcome() {
                     </nav>
                 </header>
                 <div className="flex w-full flex-1 items-center justify-center opacity-100 transition-opacity duration-750 lg:grow starting:opacity-0">
-                    <main className="flex w-full h-[50vh] max-w-[335px] flex-col-reverse lg:max-w-4xl lg:flex-row">
-                        <RiveExample className="w-full h-full" />
+                    <main className="flex w-full h-[80vh] max-w-[335px] flex-col-reverse lg:max-w-4xl lg:flex-row">
+                        <LiquidGlassWindow className="w-full h-full" />
                     </main>
                 </div>
                 <div className="hidden h-14.5 lg:block"></div>
